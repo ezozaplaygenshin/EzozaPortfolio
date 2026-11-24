@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="E'zoza Istamova — Frontend Developer portfolio">
+    <meta name="theme-color" content="#096A61">
+    <title>E'zoza Istamova — Frontend Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.css"
+        integrity="sha512-NhLySQDkiKSKnT+R795uaHWRQ7D3VuIvgeOLCK8cWq4w5fq4sWF90gj8eURpTqn/f1mFzqClpOz8JPlgVTLfFw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- Banner -->
+    <header class="banner" id="home">
+        <div class="navbar" id="navbar">
+            <a href="#home" class="logo">Portfolio</a>
+
+            <button class="burger" id="burger" type="button" aria-label="Menyuni ochish" aria-expanded="false"
+                aria-controls="menu">
+                <span></span><span></span><span></span>
+            </button>
+
+            <div class="menu" id="menu">
+                <nav class="page" aria-label="Asosiy menyu">
+                    <a href="#home">Asosiy</a>
+                    <a href="#about">Biz haqimizda</a>
+                    <a href="#projects">Loyihalar</a>
+                    <a href="#contact">Bog'lanish</a>
+                </nav>
+                <div class="icons">
+                    <a target="_blank" rel="noopener" href="https://t.me/twinskii" aria-label="Telegram"><i
+                            class="fa-brands fa-telegram"></i></a>
+                    <a target="_blank" rel="noopener" href="https://github.com/ezozaplaygenshin"
+                        aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a target="_blank" rel="noopener" href="https://instagram.com" aria-label="Instagram"><i
+                            class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Profil -->
+        <div class="profil">
+            <div class="pro__start">
+                <p>Salom, Mening ismim</p>
+                <h1>E'zoza <br> Istamova</h1>
+                <p class="front">Frontend Developer</p>
+            </div>
+
+            <div class="pro__center">
+                <img src="https://img.magnific.com/free-photo/pleasant-looking-teenage-girl-wears-comfortable-hoodie-had-combed-dark-hair-looks-camera-with-little-smile_273609-38963.jpg?semt=ais_hybrid&w=740&q=80"
+                    alt="E'zoza Istamova" width="740" height="987">
+            </div>
+
+            <div class="pro__end">
+                <div class="stat">
+                    <p>Yillar</p>
+                    <span class="stat_num">1</span>
+                </div>
+                <div class="stat">
+                    <p>Tugatilgan proektlar</p>
+                    <span class="stat_num">30</span>
+                </div>
+                <div class="stat">
+                    <p>Klientlar</p>
+                    <span class="stat_num">2</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Skills -->
+        <section class="container" aria-label="Ko'nikmalar">
+            <div class="box">
+                <img src="https://images.icon-icons.com/171/PNG/512/html5_23329.png" alt="HTML" width="80" height="80"
+                    loading="lazy">
+                <p class="box_title">HTML</p>
+                <p class="box_prosent">100%</p>
+            </div>
+            <div class="box">
+                <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/css-icon.png"
+                    alt="CSS" width="80" height="80" loading="lazy">
+                <p class="box_title">CSS</p>
+                <p class="box_prosent">95%</p>
+            </div>
+            <div class="box">
+                <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/bootstrap-5-logo-icon.png"
+                    alt="Bootstrap" width="80" height="80" loading="lazy">
+                <p class="box_title">Bootstrap</p>
+                <p class="box_prosent">87%</p>
+            </div>
+            <div class="box">
+                <img src="https://static.vecteezy.com/system/resources/thumbnails/027/127/560/small_2x/javascript-logo-javascript-icon-transparent-free-png.png"
+                    alt="JavaScript" width="80" height="80" loading="lazy">
+                <p class="box_title">JavaScript</p>
+                <p class="box_prosent">93%</p>
+            </div>
+            <div class="box">
+                <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" width="80" height="80"
+                    loading="lazy">
+                <p class="box_title">GitHub</p>
+                <p class="box_prosent">98%</p>
+            </div>
+            <div class="box">
+                <img src="https://static.vecteezy.com/system/resources/previews/042/165/840/non_2x/figma-3d-logo-white-background-free-png.png"
+                    alt="Figma" width="80" height="80" loading="lazy">
+                <p class="box_title">Figma</p>
+                <p class="box_prosent">92%</p>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="project" id="projects">
+            <div class="pro_right">
+                <div class="pro_text">
+                    <h2>Mening Loyihalarim</h2>
+                    <p>Bu loyihalar Frontend bo'yicha yasalgan Html Css JavaScript texnologiyalaridan foydalanib.
+                        Interfeysga doir hisoblash hamda API yordamida qurilgan saytlar bilan tanishasiz.</p>
+                </div>
+                <article class="pro_card">
+                    <img src="./images/pul.jpg" alt="Pul konvertatsiya sayti" width="1280" height="667"
+                        loading="lazy">
+                    <div class="pro_but">
+                        <span class="pro_btn1">Pul konvertatsiya</span>
+                        <a class="pro_btn2" href="https://google.com" target="_blank" rel="noopener">Saytni ko'rish</a>
+                    </div>
+                </article>
+                <article class="pro_card">
+                    <img src="./images/weather.jpg" alt="Ob-havo sayti" width="1280" height="665" loading="lazy">
+                    <div class="pro_but">
+                        <span class="pro_btn1">Ob-havo sayt</span>
+                        <a class="pro_btn2" href="https://google.com" target="_blank" rel="noopener">Saytni ko'rish</a>
+                    </div>
+                </article>
+            </div>
+
+            <div class="pro_left">
+                <article class="pro_card">
+                    <img src="./images/movie.jpg" alt="Kino qidirish sayti" width="1280" height="663" loading="lazy">
+                    <div class="pro_but">
+                        <span class="pro_btn1">Kino qidirish sayt</span>
+                        <a class="pro_btn2" href="https://mo.com" target="_blank" rel="noopener">Saytni ko'rish</a>
+                    </div>
+                </article>
+                <article class="pro_card">
+                    <img src="./images/nomer.jpg" alt="Kalkulyator sayti" width="1280" height="657" loading="lazy">
+                    <div class="pro_but">
+                        <span class="pro_btn1">Kalkulyator sayt</span>
+                        <a class="pro_btn2" href="https://google.com" target="_blank" rel="noopener">Saytni ko'rish</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section id="about">
+            <h2 class="ed_title">Markaz <span class="po">&amp;</span> Tajriba</h2>
+            <div class="education">
+                <div class="ed_left">
+                    <div class="ed_item">
+                        <div class="po">2021 - HOZIRGI VAQT</div>
+                        <p>107-MAKTAB</p>
+                        <p>Hozirda 6-sinfda tahsil olaman. Yangi bilimlar olish va kompyuter texnologiyalarini
+                            o'rganishga qiziqaman.</p>
+                    </div>
+                    <div class="ed_item">
+                        <div class="po">2025 - HOZIRGI VAQT</div>
+                        <p>IT HOUSE O'QUV MARKAZI</p>
+                        <p>IT sohasida bilimlarimni oshirib, web dasturlashni o'rganmoqdaman.</p>
+                    </div>
+                </div>
+                <div class="ed_right">
+                    <div class="ed_item">
+                        <div class="po">FRONTEND DEVELOPER</div>
+                        <p>Men Frontend Developer yo'nalishida rivojlanayotgan dasturchiman.</p>
+                    </div>
+                    <div class="ed_item">
+                        <div class="po">HTML</div>
+                        <p>HTML yordamida web-sahifalar tuzilishini yarataman.</p>
+                    </div>
+                    <div class="ed_item">
+                        <div class="po">CSS</div>
+                        <p>CSS orqali saytlarni chiroyli bezash, ranglar va joylashuv bilan ishlashni
+                            o'rganmoqdaman.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Contact -->
+    <footer class="footer" id="contact">
+        <h2>Bog'lanish</h2>
+        <p>Loyiha yoki hamkorlik bo'yicha yozing</p>
+        <div class="icons">
+            <a target="_blank" rel="noopener" href="https://t.me/twinskii" aria-label="Telegram"><i
+                    class="fa-brands fa-telegram"></i></a>
+            <a target="_blank" rel="noopener" href="https://github.com/ezozaplaygenshin" aria-label="GitHub"><i
+                    class="fa-brands fa-github"></i></a>
+            <a target="_blank" rel="noopener" href="https://instagram.com" aria-label="Instagram"><i
+                    class="fa-brands fa-instagram"></i></a>
+        </div>
+        <small>&copy; 2026 E'zoza Istamova</small>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
